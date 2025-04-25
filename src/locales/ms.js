@@ -1,0 +1,201 @@
+// 马来语语言包
+export default {
+  // 应用信息
+  app: {
+    name: 'Aplikasi Nota',
+    slogan: 'Pengurusan nota yang cekap',
+    version: 'Versi 1.0.0'
+  },
+  
+  // 公共部分
+  common: {
+    confirm: 'Sahkan',
+    cancel: 'Batal',
+    delete: 'Padam',
+    edit: 'Edit',
+    save: 'Simpan',
+    loading: 'Memuatkan...',
+    success: 'Berjaya',
+    failed: 'Gagal',
+    back: 'Kembali',
+    next: 'Seterusnya',
+    unknown: 'Tidak diketahui',
+    search: 'Cari',
+    noData: 'Tiada data',
+    tips: 'Petua',
+    retry: 'Cuba lagi',
+    logout: 'Log keluar',
+    logoutConfirm: 'Adakah anda pasti mahu log keluar?',
+    optional: '(Pilihan)',
+    more: 'Lagi',
+    all: 'Semua',
+    close: 'Tutup',
+    open: 'Buka',
+    welcome: 'Selamat datang'
+  },
+  
+  // 登录
+  login: {
+    login: 'Log masuk',
+    email: 'E-mel',
+    password: 'Kata laluan',
+    forgotPassword: 'Lupa kata laluan?',
+    rememberMe: 'Ingat saya',
+    loginSuccess: 'Log masuk berjaya',
+    emailRequired: 'Sila masukkan e-mel anda',
+    passwordRequired: 'Sila masukkan kata laluan anda',
+    emailFormat: 'Sila masukkan alamat e-mel yang sah',
+    passwordLength: 'Kata laluan mestilah sekurang-kurangnya 6 aksara',
+    noAccount: 'Tiada akaun? Daftar sekarang',
+    welcomeBack: 'Selamat Kembali',
+    pleaseLogin: 'Sila log masuk untuk meneruskan',
+    signIn: 'Log Masuk',
+    signing: 'Log masuk...',
+    emailPlaceholder: 'Masukkan e-mel anda',
+    passwordPlaceholder: 'Masukkan kata laluan anda',
+    loginFailed: 'Log masuk gagal, sila cuba lagi',
+    loginException: 'Ralat berlaku semasa log masuk, sila cuba lagi',
+    invalidCredentials: 'E-mel atau kata laluan tidak sah',
+    resetPasswordInstructions: 'Masukkan alamat e-mel anda dan kami akan menghantar arahan untuk menetapkan semula kata laluan anda',
+    connectingWhatsApp: 'Menyambung ke WhatsApp...',
+    whatsAppLoginSuccess: 'Log masuk WhatsApp berjaya',
+    phoneLogin: 'Log masuk dengan telefon',
+    gotIt: 'Faham'
+  },
+  
+  // 注册页面
+  register: {
+    register: 'Daftar',
+    createAccount: 'Cipta Akaun',
+    joinCommunity: 'Sertai komuniti pencatat nota kami',
+    name: 'Nama',
+    email: 'E-mel',
+    password: 'Kata laluan',
+    confirmPassword: 'Sahkan Kata Laluan',
+    namePlaceholder: 'Masukkan nama anda',
+    emailPlaceholder: 'Masukkan e-mel anda',
+    passwordPlaceholder: 'Masukkan kata laluan anda',
+    confirmPasswordPlaceholder: 'Sahkan kata laluan anda',
+    registering: 'Mendaftar...',
+    hasAccount: 'Sudah mempunyai akaun?',
+    loginNow: 'Log masuk sekarang',
+    nameRequired: 'Sila masukkan nama anda',
+    emailRequired: 'Sila masukkan e-mel anda',
+    invalidEmail: 'Sila masukkan alamat e-mel yang sah',
+    passwordRequired: 'Sila masukkan kata laluan anda',
+    passwordTooShort: 'Kata laluan mestilah sekurang-kurangnya 6 aksara',
+    passwordMismatch: 'Kedua-dua kata laluan tidak sepadan',
+    registerSuccess: 'Pendaftaran berjaya',
+    registerFailed: 'Pendaftaran gagal, sila cuba lagi',
+    registerException: 'Ralat berlaku semasa pendaftaran, sila cuba lagi',
+    alreadyHaveAccount: 'Sudah mempunyai akaun? Log masuk',
+    phone: 'Nombor Telefon',
+    registerNow: 'Daftar sekarang'
+  },
+  
+  // 首页
+  home: {
+    myNotes: 'Nota Saya',
+    addNote: 'Nota Baru',
+    noNoteTips: 'Tiada nota lagi, klik butang di sudut kanan atas untuk menambah',
+    sortOptions: {
+      latestUpdate: 'Kemas Kini Terkini',
+      earliestUpdate: 'Kemas Kini Terawal',
+      byProgress: 'Mengikut Kemajuan',
+      byEventCount: 'Mengikut Jumlah Acara',
+      byTitle: 'Mengikut Tajuk'
+    },
+    noteTips: {
+      progress: 'Kemajuan: {percent}%',
+      completed: 'Selesai {completed} daripada {total} acara',
+      noEvents: 'Tiada acara kemajuan lagi'
+    },
+    justNow: 'Baru sahaja',
+    minutesAgo: '{minutes} minit yang lalu',
+    hoursAgo: '{hours} jam yang lalu',
+    deleteNoteConfirm: 'Adakah anda pasti mahu memadam nota ini?',
+    viewImage: 'Lihat Imej',
+    untitled: 'Tanpa tajuk',
+    noContent: 'Tiada kandungan'
+  },
+  
+  // 编辑页面
+  edit: {
+    editNote: 'Edit Nota',
+    newNote: 'Nota Baru',
+    title: 'Tajuk',
+    content: 'Kandungan',
+    noteTitle: 'Tajuk Nota',
+    noteContent: 'Kandungan Nota...',
+    personInCharge: 'Orang yang Bertanggungjawab',
+    timeFrame: 'Rangka Masa',
+    startDate: 'Tarikh Mula',
+    endDate: 'Tarikh Tamat',
+    addEvent: 'Tambah Acara',
+    noEvents: 'Tiada acara ditambah lagi',
+    progressEvents: 'Acara Kemajuan',
+    eventDescription: 'Penerangan Acara',
+    eventTime: 'Masa Acara',
+    eventCompleted: 'Selesai',
+    eventImages: 'Imej Acara',
+    uploadImage: 'Muat Naik Imej',
+    deleteEventConfirm: 'Adakah anda pasti mahu memadam acara ini?',
+    saveSuccess: 'Berjaya disimpan',
+    discardChanges: 'Buang perubahan?',
+    unsavedChanges: 'Anda mempunyai perubahan yang belum disimpan, adakah anda pasti mahu keluar?',
+    stay: 'Kekal',
+    leave: 'Keluar'
+  },
+  
+  // 用户设置
+  settings: {
+    accountSettings: 'Tetapan Akaun',
+    profile: 'Profil',
+    changeAvatar: 'Tukar Avatar',
+    name: 'Nama',
+    email: 'E-mel',
+    emailTip: 'E-mel adalah akaun log masuk anda dan tidak boleh diubah',
+    phone: 'Telefon',
+    password: 'Kata Laluan',
+    passwordSettings: 'Tetapan Kata Laluan',
+    changePassword: 'Tukar Kata Laluan',
+    currentPassword: 'Kata Laluan Semasa',
+    newPassword: 'Kata Laluan Baru',
+    confirmNewPassword: 'Sahkan Kata Laluan Baru',
+    saveChanges: 'Simpan Perubahan',
+    saving: 'Menyimpan...',
+    accountOptions: 'Pilihan Akaun',
+    deleteAccount: 'Padam Akaun',
+    deleteAccountConfirm: 'Selepas pemadaman, semua data anda akan dipadam dan tidak boleh dipulihkan. Adakah anda pasti mahu meneruskan?',
+    processing: 'Memproses...',
+    accountDeleted: 'Akaun dipadam',
+    saveSuccess: 'Berjaya disimpan',
+    saveFailed: 'Simpan gagal, sila cuba lagi',
+    passwordSuccess: 'Kata laluan berjaya ditukar',
+    passwordFailed: 'Gagal menukar kata laluan, sila cuba lagi',
+    currentPasswordError: 'Kata laluan semasa tidak betul',
+    passwordRule: 'Kata laluan mestilah sekurang-kurangnya 6 aksara',
+    nameRequired: 'Sila masukkan nama anda',
+    invalidPhone: 'Sila masukkan nombor telefon yang sah'
+  },
+  
+  // 侧边栏菜单
+  sidebar: {
+    settings: 'Tetapan',
+    accountSettings: 'Tetapan Akaun',
+    dataSync: 'Penyegerakan Data',
+    themeSettings: 'Tetapan Tema',
+    languageSettings: 'Tetapan Bahasa',
+    aboutApp: 'Mengenai Aplikasi',
+    currentLanguage: 'Bahasa Semasa',
+    selectLanguage: 'Pilih Bahasa',
+    aboutContent: 'Aplikasi Nota v1.0.0\\nAlat pengurusan nota dan senarai tugas yang mudah digunakan',
+    comingSoon: 'Ciri {feature} akan datang tidak lama lagi',
+    restartNeeded: 'Tetapan bahasa telah diubah',
+    restartContent: 'Anda perlu memulakan semula aplikasi untuk menggunakan tetapan bahasa baru. Mulakan semula sekarang?',
+    restartNow: 'Mulakan Semula Sekarang',
+    restartLater: 'Mulakan Semula Kemudian',
+    languageUpdateSuccess: 'Tetapan bahasa dikemas kini',
+    languageUpdateFailed: 'Tetapan bahasa gagal'
+  }
+};

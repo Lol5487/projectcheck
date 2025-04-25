@@ -1,0 +1,201 @@
+// 英文语言包
+export default {
+  // 应用信息
+  app: {
+    name: 'Note App',
+    slogan: 'Efficient note-taking and management',
+    version: 'Version 1.0.0'
+  },
+  
+  // 公共部分
+  common: {
+    confirm: 'Confirm',
+    cancel: 'Cancel',
+    delete: 'Delete',
+    edit: 'Edit',
+    save: 'Save',
+    loading: 'Loading...',
+    success: 'Success',
+    failed: 'Failed',
+    back: 'Back',
+    next: 'Next',
+    unknown: 'Unknown',
+    search: 'Search',
+    noData: 'No data',
+    tips: 'Tips',
+    retry: 'Retry',
+    logout: 'Log out',
+    logoutConfirm: 'Are you sure you want to log out?',
+    optional: '(Optional)',
+    more: 'More',
+    all: 'All',
+    close: 'Close',
+    open: 'Open',
+    welcome: 'Welcome'
+  },
+  
+  // 登录
+  login: {
+    login: 'Log in',
+    email: 'Email',
+    password: 'Password',
+    forgotPassword: 'Forgot Password?',
+    rememberMe: 'Remember Me',
+    loginSuccess: 'Login successful',
+    emailRequired: 'Please enter your email',
+    passwordRequired: 'Please enter your password',
+    emailFormat: 'Please enter a valid email address',
+    passwordLength: 'Password must be at least 6 characters',
+    noAccount: 'Don\'t have an account? Register now',
+    welcomeBack: 'Welcome Back',
+    pleaseLogin: 'Please sign in to continue',
+    signIn: 'Sign In',
+    signing: 'Signing in...',
+    emailPlaceholder: 'Enter your email',
+    passwordPlaceholder: 'Enter your password',
+    loginFailed: 'Login failed, please try again',
+    loginException: 'An error occurred during login, please try again',
+    invalidCredentials: 'Invalid email or password',
+    resetPasswordInstructions: 'Enter your email address and we will send you instructions to reset your password',
+    connectingWhatsApp: 'Connecting to WhatsApp...',
+    whatsAppLoginSuccess: 'WhatsApp login successful',
+    phoneLogin: 'Login with phone',
+    gotIt: 'Got it'
+  },
+  
+  // 注册页面
+  register: {
+    register: 'Register',
+    createAccount: 'Create Account',
+    joinCommunity: 'Join our note-taking community',
+    name: 'Name',
+    email: 'Email',
+    password: 'Password',
+    confirmPassword: 'Confirm Password',
+    namePlaceholder: 'Enter your name',
+    emailPlaceholder: 'Enter your email',
+    passwordPlaceholder: 'Enter your password',
+    confirmPasswordPlaceholder: 'Confirm your password',
+    registering: 'Registering...',
+    hasAccount: 'Already have an account?',
+    loginNow: 'Login now',
+    nameRequired: 'Please enter your name',
+    emailRequired: 'Please enter your email',
+    invalidEmail: 'Please enter a valid email address',
+    passwordRequired: 'Please enter your password',
+    passwordTooShort: 'Password must be at least 6 characters',
+    passwordMismatch: 'The two passwords do not match',
+    registerSuccess: 'Registration successful',
+    registerFailed: 'Registration failed, please try again',
+    registerException: 'An error occurred during registration, please try again',
+    alreadyHaveAccount: 'Already have an account? Log in',
+    phone: 'Phone Number',
+    registerNow: 'Register now'
+  },
+  
+  // 首页
+  home: {
+    myNotes: 'My Notes',
+    addNote: 'New Note',
+    noNoteTips: 'No notes yet, click the button in the top right corner to add one',
+    sortOptions: {
+      latestUpdate: 'Latest Update',
+      earliestUpdate: 'Earliest Update',
+      byProgress: 'By Progress',
+      byEventCount: 'By Event Count',
+      byTitle: 'By Title'
+    },
+    noteTips: {
+      progress: 'Progress: {percent}%',
+      completed: 'Completed {completed} of {total} events',
+      noEvents: 'No progress events yet'
+    },
+    justNow: 'Just now',
+    minutesAgo: '{minutes} minutes ago',
+    hoursAgo: '{hours} hours ago',
+    deleteNoteConfirm: 'Are you sure you want to delete this note?',
+    viewImage: 'View Image',
+    untitled: 'Untitled',
+    noContent: 'No content'
+  },
+  
+  // 编辑页面
+  edit: {
+    editNote: 'Edit Note',
+    newNote: 'New Note',
+    title: 'Title',
+    content: 'Content',
+    noteTitle: 'Note Title',
+    noteContent: 'Note Content...',
+    personInCharge: 'Person in Charge',
+    timeFrame: 'Time Frame',
+    startDate: 'Start Date',
+    endDate: 'End Date',
+    addEvent: 'Add Event',
+    noEvents: 'No events added yet',
+    progressEvents: 'Progress Events',
+    eventDescription: 'Event Description',
+    eventTime: 'Event Time',
+    eventCompleted: 'Completed',
+    eventImages: 'Event Images',
+    uploadImage: 'Upload Image',
+    deleteEventConfirm: 'Are you sure you want to delete this event?',
+    saveSuccess: 'Saved successfully',
+    discardChanges: 'Discard changes?',
+    unsavedChanges: 'You have unsaved changes, are you sure you want to leave?',
+    stay: 'Stay',
+    leave: 'Leave'
+  },
+  
+  // 用户设置
+  settings: {
+    accountSettings: 'Account Settings',
+    profile: 'Profile',
+    changeAvatar: 'Change Avatar',
+    name: 'Name',
+    email: 'Email',
+    emailTip: 'Email is your login account and cannot be changed',
+    phone: 'Phone',
+    password: 'Password',
+    passwordSettings: 'Password Settings',
+    changePassword: 'Change Password',
+    currentPassword: 'Current Password',
+    newPassword: 'New Password',
+    confirmNewPassword: 'Confirm New Password',
+    saveChanges: 'Save Changes',
+    saving: 'Saving...',
+    accountOptions: 'Account Options',
+    deleteAccount: 'Delete Account',
+    deleteAccountConfirm: 'After deletion, all your data will be deleted and cannot be recovered. Are you sure you want to continue?',
+    processing: 'Processing...',
+    accountDeleted: 'Account deleted',
+    saveSuccess: 'Successfully saved',
+    saveFailed: 'Save failed, please try again',
+    passwordSuccess: 'Password changed successfully',
+    passwordFailed: 'Failed to change password, please try again',
+    currentPasswordError: 'Current password is incorrect',
+    passwordRule: 'Password must be at least 6 characters',
+    nameRequired: 'Please enter your name',
+    invalidPhone: 'Please enter a valid phone number'
+  },
+  
+  // 侧边栏菜单
+  sidebar: {
+    settings: 'Settings',
+    accountSettings: 'Account Settings',
+    dataSync: 'Data Sync',
+    themeSettings: 'Theme Settings',
+    languageSettings: 'Language Settings',
+    aboutApp: 'About App',
+    currentLanguage: 'Current Language',
+    selectLanguage: 'Select Language',
+    aboutContent: 'Note App v1.0.0\\nA simple and easy-to-use note and to-do management tool',
+    comingSoon: '{feature} feature coming soon',
+    restartNeeded: 'Language settings have been changed',
+    restartContent: 'You need to restart the app to apply the new language settings. Restart now?',
+    restartNow: 'Restart Now',
+    restartLater: 'Restart Later',
+    languageUpdateSuccess: 'Language settings updated',
+    languageUpdateFailed: 'Language settings failed'
+  }
+};

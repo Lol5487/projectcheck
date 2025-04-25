@@ -1,0 +1,7 @@
+/**
+ * uni-app全局样式变量
+ */
+
+/* 图片预览组件的z-index需要高于所有其他元素 */
+$uni-z-index-popup: 9999999;
+$uni-z-index-mask: 9999998;
